@@ -1,0 +1,14 @@
+﻿{
+  "images": [
+    { "src": "https://picsum.photos/id/1015/1200/800", "caption": "Bridal glow" },
+    { "src": "https://picsum.photos/id/1011/1200/800", "caption": "Editorial edge" },
+    { "src": "https://picsum.photos/id/1005/1200/800", "caption": "Party perfect" },
+    { "src": "https://picsum.photos/id/1000/1200/800", "caption": "Sleek hair" },
+    { "src": "https://picsum.photos/id/1027/1200/800", "caption": "Smokey eye" },
+    { "src": "https://picsum.photos/id/1035/1200/800", "caption": "Soft glam" },
+    { "src": "https://picsum.photos/id/1041/1200/800", "caption": "Classic red" },
+    { "src": "https://picsum.photos/id/1043/1200/800", "caption": "Dewy base" },
+    { "src": "https://picsum.photos/id/1050/1200/800", "caption": "Bold liner" },
+    { "src": "https://picsum.photos/id/1060/1200/800", "caption": "Natural look" }
+  ]
+}

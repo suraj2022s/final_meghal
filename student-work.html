@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head><title>Student Work â€” Meghal Ahuja â€¢ MUA</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="assets/favicon.png" rel="icon" type="image/png"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/><link href="styles.css" rel="stylesheet">
+</link></head><body class="bg-white text-gray-800" data-page="students">
+<header class="fixed top-0 inset-x-0 z-50 bg-white/75 nav-blur border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<a class="flex items-center gap-3" href="index.html">
+<img alt="Logo" class="w-10 h-10 rounded-full object-cover" src="assets/logo.png"/>
+<span class="font-semibold" id="siteTitle">Meghal Ahuja â€¢ MUA</span>
+</a>
+<!-- Desktop nav -->
+<nav class="hidden md:flex items-center gap-6 font-medium">
+<a class="hover:text-fuchsia-600" href="index.html">About</a>
+<a class="hover:text-fuchsia-600" href="services.html">Services</a>
+<a class="hover:text-fuchsia-600" href="gallery.html">Gallery</a>
+<a class="hover:text-fuchsia-600" href="student-work.html">Student Work</a>
+<a class="hover:text-fuchsia-600" href="tutorials.html">Tutorials</a>
+<a class="hover:text-fuchsia-600" href="products.html">Products</a>
+<a class="hover:text-fuchsia-600" href="client-love.html">Client Love</a>
+<a class="hover:text-fuchsia-600" href="faq.html">FAQ</a>
+<a class="px-4 py-2 rounded-xl text-white" href="contact.html" style="background:linear-gradient(90deg,var(--brand),var(--accent))">Book</a>
+</nav>
+<!-- Mobile button -->
+<button aria-label="Open menu" class="md:hidden p-2 rounded-lg border" id="mobileBtn">
+<svg height="22" viewbox="0 0 24 24" width="22">
+<path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Mobile panel -->
+<div class="md:hidden hidden fixed inset-0 bg-white" id="mobileMenu">
+<div class="p-4 flex items-center justify-between border-b">
+<span class="font-semibold">Menu</span>
+<button aria-label="Close menu" class="p-2 rounded-lg border" id="mobileClose">
+<svg height="22" viewbox="0 0 24 24" width="22">
+<path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<nav class="px-6 py-4 grid gap-3 text-lg">
+<a class="py-2 border-b" href="index.html">About</a>
+<a class="py-2 border-b" href="services.html">Services</a>
+<a class="py-2 border-b" href="gallery.html">Gallery</a>
+<a class="py-2 border-b" href="student-work.html">Student Work</a>
+<a class="py-2 border-b" href="tutorials.html">Tutorials</a>
+<a class="py-2 border-b" href="products.html">Products</a>
+<a class="py-2 border-b" href="client-love.html">Client Love</a>
+<a class="py-2 border-b" href="faq.html">FAQ</a>
+<a class="py-3 rounded-xl text-center text-white mt-2" href="contact.html" style="background:linear-gradient(90deg,var(--brand),var(--accent))">Book</a>
+</nav>
+</div>
+</header>
+<section class="pt-28 sm:pt-32 pb-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h1 class="serif text-3xl sm:text-4l font-bold text-center">Student Work</h1>
+<div class="underline-fancy"></div>
+<p class="text-center text-gray-600 mt-3">Hear from our students and see what theyâ€™ve gone on to create after the course.</p>
+<div class="swiper my-10" id="studentsSwiper"><div class="swiper-wrapper" id="studentsSlides"></div><div class="swiper-pagination"></div></div><div class="students-grid mt-10" id="studentsGrid"></div>
+</div>
+</section>
+<footer class="py-10 border-t border-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+<p class="text-gray-500">Â© <span id="year"></span> <span id="siteTitle">MUA</span>. All rights reserved.</p>
+<div class="flex items-center gap-4 text-sm text-gray-600">
+<a class="underline" data-email="">Email</a>
+<a class="underline" data-ig="" target="_blank">Instagram</a>
+</div>
+</div>
+</footer>
+<script src="script.js"></script><script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script></body></html>
+

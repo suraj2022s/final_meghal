@@ -1,0 +1,6 @@
+﻿{
+  "items": [
+    { "name": "Essential Brush Set", "price": "₹1,999", "image": "https://picsum.photos/id/1062/800/600", "link": "https://www.google.com/search?q=makeup+brush+set" },
+    { "name": "Setting Spray", "price": "₹899", "image": "https://picsum.photos/id/1069/800/600", "link": "https://www.google.com/search?q=makeup+setting+spray" }
+  ]
+}

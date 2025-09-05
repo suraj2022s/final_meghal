@@ -1,0 +1,7 @@
+﻿{
+  "items": [
+    { "name": "Student 1", "image": "https://picsum.photos/id/237/600/600", "course": "Pro Makeup Workshop", "city": "Mumbai", "date": "2025-01-01" },
+    { "name": "Student 2", "image": "https://picsum.photos/id/1025/600/600", "course": "Pro Makeup Workshop", "city": "Mumbai", "date": "2025-01-01" },
+    { "name": "Student 3", "image": "https://picsum.photos/id/1024/600/600", "course": "Pro Makeup Workshop", "city": "Mumbai", "date": "2025-01-01" }
+  ]
+}

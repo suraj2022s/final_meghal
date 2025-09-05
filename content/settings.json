@@ -1,0 +1,18 @@
+﻿{
+    "business":  {
+                     "name":  "Meghal Ahuja â€¢ MUA",
+                     "tagline":  "Editorial polish, bridal softness",
+                     "bio_short":  "Onâ€‘location makeup artist crafting natural, longâ€‘wear looks with premium products.",
+                     "city":  "Mumbai, India",
+                     "areas":  "Mumbai â€¢ Navi Mumbai â€¢ Thane â€¢ Pune â€¢ Destination weddings",
+                     "hours":  "Monâ€“Sun 9:00â€“20:00",
+                     "phone":  "+91 98765 43210",
+                     "email":  "hello@example.com",
+                     "instagram":  "https://instagram.com/meghalahuja.mua"
+                 },
+    "hero_image":  "assets/logo.png",
+    "cta":  {
+                "primary":  "Book Your Date",
+                "secondary":  "View Portfolio"
+            }
+}
